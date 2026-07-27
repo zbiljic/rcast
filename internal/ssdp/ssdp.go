@@ -97,7 +97,7 @@ func parseMSearch(raw, deviceUUID string) (st string, mx int, ok bool) {
 	if !strings.HasPrefix(raw, "M-SEARCH * HTTP/1.1") {
 		return "", 0, false
 	}
-	if !strings.Contains(strings.ToUpper(raw), "MAN: \"SSDP:DISCOVER\"") {
+	if !strings.EqualFold(headerValue(raw, "MAN"), `"ssdp:discover"`) {
 		return "", 0, false
 	}
 	st = headerValue(raw, "ST")

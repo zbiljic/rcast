@@ -297,6 +297,7 @@ func TestParseMSearch(t *testing.T) {
 		{"mx clamp low", mkPacket("ssdp:all", "0"), true, "ssdp:all", 1},
 		{"mx clamp high", mkPacket("ssdp:all", "9"), true, "ssdp:all", 5},
 		{"mx non-numeric default", mkPacket("ssdp:all", "abc"), true, "ssdp:all", 1},
+		{"MAN without optional whitespace", "M-SEARCH * HTTP/1.1\r\nMAN:\"ssdp:discover\"\r\nST: ssdp:all\r\n\r\n", true, "ssdp:all", 1},
 		{"not M-SEARCH", "POST * HTTP/1.1\r\nST: ssdp:all\r\n\r\n", false, "", 0},
 		{"missing MAN", "M-SEARCH * HTTP/1.1\r\nST: ssdp:all\r\n\r\n", false, "", 0},
 		{"wrong MAN", "M-SEARCH * HTTP/1.1\r\nMAN: \"SSDP:OTHER\"\r\nST: ssdp:all\r\n\r\n", false, "", 0},
