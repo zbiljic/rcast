@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tr1v3r/rcast/internal/config"
-	"github.com/tr1v3r/rcast/internal/uuid"
+	"github.com/zbiljic/rcast/internal/config"
+	"github.com/zbiljic/rcast/internal/uuid"
 )
 
 // callArgs captures the arguments passed to an SSDP fake.

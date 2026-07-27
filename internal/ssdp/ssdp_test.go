@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tr1v3r/rcast/internal/upnp"
+	"github.com/zbiljic/rcast/internal/upnp"
 )
 
 // --- Existing pure-function tests (unchanged) ---

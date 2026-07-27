@@ -7,8 +7,8 @@ import (
 
 	"github.com/tr1v3r/pkg/log"
 
-	"github.com/tr1v3r/rcast/internal/config"
-	"github.com/tr1v3r/rcast/internal/state"
+	"github.com/zbiljic/rcast/internal/config"
+	"github.com/zbiljic/rcast/internal/state"
 )
 
 func ConnectionManagerHandler(st *state.PlayerState, cfg config.Config) http.HandlerFunc {

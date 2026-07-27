@@ -13,12 +13,12 @@ import (
 	"github.com/tr1v3r/pkg/log"
 	"github.com/urfave/cli/v3"
 
-	"github.com/tr1v3r/rcast/internal/config"
-	"github.com/tr1v3r/rcast/internal/httpserver"
-	"github.com/tr1v3r/rcast/internal/netutil"
-	"github.com/tr1v3r/rcast/internal/ssdp"
-	"github.com/tr1v3r/rcast/internal/state"
-	"github.com/tr1v3r/rcast/internal/uuid"
+	"github.com/zbiljic/rcast/internal/config"
+	"github.com/zbiljic/rcast/internal/httpserver"
+	"github.com/zbiljic/rcast/internal/netutil"
+	"github.com/zbiljic/rcast/internal/ssdp"
+	"github.com/zbiljic/rcast/internal/state"
+	"github.com/zbiljic/rcast/internal/uuid"
 )
 
 const serverName = "RCast-DMR/1.1" // "GoDLNA-DMR/1.1"

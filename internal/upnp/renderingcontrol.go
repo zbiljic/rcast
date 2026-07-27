@@ -8,9 +8,9 @@ import (
 
 	"github.com/tr1v3r/pkg/log"
 
-	"github.com/tr1v3r/rcast/internal/config"
-	"github.com/tr1v3r/rcast/internal/player"
-	"github.com/tr1v3r/rcast/internal/state"
+	"github.com/zbiljic/rcast/internal/config"
+	"github.com/zbiljic/rcast/internal/player"
+	"github.com/zbiljic/rcast/internal/state"
 )
 
 // Aweme on iOS exposes eight system volume steps but changes the UPnP value by

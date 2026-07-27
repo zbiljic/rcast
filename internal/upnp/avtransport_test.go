@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tr1v3r/rcast/internal/config"
-	"github.com/tr1v3r/rcast/internal/player"
-	"github.com/tr1v3r/rcast/internal/state"
+	"github.com/zbiljic/rcast/internal/config"
+	"github.com/zbiljic/rcast/internal/player"
+	"github.com/zbiljic/rcast/internal/state"
 )
 
 // newAVTState builds a fresh PlayerState wired to the supplied spy factory.

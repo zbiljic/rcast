@@ -13,7 +13,7 @@ import (
 
 	"github.com/tr1v3r/pkg/log"
 
-	"github.com/tr1v3r/rcast/internal/upnp"
+	"github.com/zbiljic/rcast/internal/upnp"
 )
 
 const ssdpAddr = "239.255.255.250:1900"

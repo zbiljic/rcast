@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tr1v3r/rcast/internal/config"
-	"github.com/tr1v3r/rcast/internal/state"
+	"github.com/zbiljic/rcast/internal/config"
+	"github.com/zbiljic/rcast/internal/state"
 )
 
 func newCMState(t *testing.T) (*state.PlayerState, func()) {

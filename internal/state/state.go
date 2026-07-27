@@ -8,9 +8,9 @@ import (
 
 	"github.com/tr1v3r/pkg/log"
 
-	"github.com/tr1v3r/rcast/internal/config"
-	"github.com/tr1v3r/rcast/internal/monitoring"
-	"github.com/tr1v3r/rcast/internal/player"
+	"github.com/zbiljic/rcast/internal/config"
+	"github.com/zbiljic/rcast/internal/monitoring"
+	"github.com/zbiljic/rcast/internal/player"
 )
 
 const playerMaxIdle = 10 * time.Minute

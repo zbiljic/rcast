@@ -6,10 +6,10 @@ import (
 
 	"github.com/tr1v3r/pkg/log"
 
-	"github.com/tr1v3r/rcast/internal/config"
-	"github.com/tr1v3r/rcast/internal/monitoring"
-	"github.com/tr1v3r/rcast/internal/state"
-	"github.com/tr1v3r/rcast/internal/upnp"
+	"github.com/zbiljic/rcast/internal/config"
+	"github.com/zbiljic/rcast/internal/monitoring"
+	"github.com/zbiljic/rcast/internal/state"
+	"github.com/zbiljic/rcast/internal/upnp"
 )
 
 func NewMux() *http.ServeMux {

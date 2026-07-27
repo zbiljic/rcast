@@ -8,7 +8,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/tr1v3r/rcast/internal/player"
+	"github.com/zbiljic/rcast/internal/player"
 )
 
 // handlerFakePlayer is the white-box test spy for the player.Player interface.
